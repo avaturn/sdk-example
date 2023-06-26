@@ -2,7 +2,7 @@
 
 This is a basic example of integrating Avaturn using our SDK.
 
-Clone this repository to your local machine:
+Clone this repository to your local machine or try it on [CodeSandbox](https://codesandbox.io/p/github/avaturn/sdk-example/)
 
 ### Run the Project
 
