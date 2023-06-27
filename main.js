@@ -6,11 +6,13 @@ import { AvaturnSDK } from "@avaturn/sdk";
 
   const sdk = new AvaturnSDK();
   const scene = await sdk.init(container, {
-    url: "https://hub.avaturn.me",
+    url: "https://preview.avaturn.dev/",
     iframeClassName: "scene",
   });
 
   scene.on("load", () => {
     console.log("Scene loaded and ready to work");
   });
+
+  scene.on("export", data => console.log(data));
 })();

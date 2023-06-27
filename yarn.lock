@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@avaturn/sdk@^0.3.14":
-  version "0.3.14"
-  resolved "https://registry.yarnpkg.com/@avaturn/sdk/-/sdk-0.3.14.tgz#a7c2a04a5fc646c67d73e03d2c92cdc0435cc8bf"
-  integrity sha512-fqbaNJrtOT4bMvHDRxgZaqoKrDEGZpljJxhijPnGJjxNYK8gJtmdk12XueQh38hJh5y+klP5w6gYNVIcHhsI4w==
+"@avaturn/sdk@^0.3.15":
+  version "0.3.15"
+  resolved "https://registry.yarnpkg.com/@avaturn/sdk/-/sdk-0.3.15.tgz#5e70c358c61657fe872a40cf6b870fb795a1156a"
+  integrity sha512-2uLQLI3qA94tpiXBp4Te2VMJ5BggxkDEGWaO+dpusGMkwtMX+OJjnQo+KCxm5KWcWI3kKw26d8cb8m17Y3S2PA==
 
 "@esbuild/android-arm64@0.17.19":
   version "0.17.19"
