@@ -6,21 +6,5 @@
       "command": "yarn install"
     }
   ],
-  "tasks": {
-    "vanilla": {
-      "name": "Vanilla",
-      "command": "yarn workspace vanilla dev",
-      "preview": {
-        "port": 5173
-      }
-    },
-    "react-with-sdk": {
-      "name": "React with SDK",
-      "command": "yarn workspace react dev",
-      "runAtStart": true,
-      "preview": {
-        "port": 5174
-      }
-    }
-  }
+  "tasks": {}
 }
