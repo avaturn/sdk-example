@@ -8,7 +8,7 @@
   ],
 
   "tasks": {
-    "dev": {
+    "dev-server": {
       "name": "Vanilla",
       "command": "yarn workspace vanilla dev",
       "runAtStart": true,
