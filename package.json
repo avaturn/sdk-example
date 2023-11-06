@@ -11,8 +11,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "start:base": "vite",
-    "start:react": "cd examples/react && vite --port 3001",
-    "start:vanilla": "cd examples/vanilla && vite --port 3002"
+    "start:react": "cd examples/react && vite --port 3001 --host",
+    "start:vanilla": "cd examples/vanilla && vite --port 3002 --host"
   },
   "devDependencies": {
     "sass": "^1.69.5",
