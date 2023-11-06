@@ -9,23 +9,10 @@
 
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
-    "dev": {
-      "name": "dev",
-      "command": "yarn dev",
-      "runAtStart": true,
-      "preview": {
-        "port": 5173
-      }
-    },
-    "build": {
-      "name": "build",
-      "command": "yarn build",
-      "runAtStart": false
-    },
-    "preview": {
-      "name": "preview",
-      "command": "yarn preview",
-      "runAtStart": false
+    "vanilla": {
+      "name": "Vanilla",
+      "command": "cd examples/vanilla && yarn dev",
+      "runAtStart": true
     },
     "react": {
       "name": "React with SDK",
