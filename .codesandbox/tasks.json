@@ -6,12 +6,10 @@
       "command": "yarn install"
     }
   ],
-
   "tasks": {
-    "dev-server": {
+    "vanilla": {
       "name": "Vanilla",
       "command": "yarn workspace vanilla dev",
-      "runAtStart": true,
       "preview": {
         "port": 5173
       }
