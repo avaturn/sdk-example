@@ -14,7 +14,7 @@
         "port": 5173
       }
     },
-    "react": {
+    "react-with-sdk": {
       "name": "React with SDK",
       "command": "yarn workspace react dev",
       "runAtStart": true,
