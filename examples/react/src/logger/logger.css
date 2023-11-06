@@ -1,0 +1,75 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.logger {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffffffa8;
+  height: 47vh;
+  overflow-y: auto;
+  padding: 1rem;
+  font-family: monospace;
+  border-radius: 20px;
+  font-size: 11px;
+  flex: 1 auto;
+}
+
+.logger__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.logger__list li {
+  padding-bottom: 0.2rem;
+  padding-top: 0.5rem;
+  border-width: 0px 0px 1px;
+  border-color: #cdcdcd;
+  border-style: solid;
+}
+
+.logger-own {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #222;
+  color: #fff;
+  max-height: 30vh;
+  overflow-y: auto;
+  padding: 1rem;
+  font-family: monospace;
+  width: 300px;
+  border-radius: 0 0 10px 0;
+  z-index: 1000;
+}
+
+.logger-own--collapsed .logger__list {
+  display: none;
+}
+
+.logger-own__toggle {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-family: monospace;
+  margin-bottom: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.9em;
+}
+
+.logger-own__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.logger-own__list li {
+  padding-bottom: 0.2rem;
+  padding-top: 0.5rem;
+  border-width: 0px 0px 1px;
+  border-color: #cdcdcd;
+  border-style: solid;
+}

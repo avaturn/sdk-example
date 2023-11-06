@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,7 +6,20 @@
     <title>Avaturn SDK example</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <div class="controls">
+        <select id="select">
+          <option value="react">React with SDK</option>
+          <option value="vanilla">Vanilla</option>
+        </select>
+        <div class="react-options">
+          <label>
+            Disable UI
+            <input id="disable-ui" type="checkbox" />
+          </label>
+        </div>
+      </div>
+    </div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
