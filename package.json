@@ -10,7 +10,7 @@
     "dev": "concurrently \"yarn start:base\" \"yarn start:react\" \"yarn start:vanilla\"",
     "build": "vite build",
     "preview": "vite preview",
-    "start:base": "vite --port 3000",
+    "start:base": "vite",
     "start:react": "cd examples/react && vite --port 3001",
     "start:vanilla": "cd examples/vanilla && vite --port 3002"
   },
