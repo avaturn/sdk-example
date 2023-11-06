@@ -1,5 +1,5 @@
 {
-  // These tasks will run in order when initializing your CodeSandbox project.
+  "$schema": "https://codesandbox.io/schemas/tasks.json",
   "setupTasks": [
     {
       "name": "Install Dependencies",
@@ -7,16 +7,15 @@
     }
   ],
 
-  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
     "vanilla": {
       "name": "Vanilla",
-      "command": "cd examples/vanilla && yarn dev",
+      "command": "yarn workspace vanilla dev",
       "runAtStart": true
     },
     "react": {
       "name": "React with SDK",
-      "command": "cd examples/react && yarn dev",
+      "command": "yarn workspace react dev",
       "runAtStart": true
     }
   }
