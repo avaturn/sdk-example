@@ -11,12 +11,18 @@
     "vanilla": {
       "name": "Vanilla",
       "command": "yarn workspace vanilla dev",
-      "runAtStart": true
+      "runAtStart": true,
+      "preview": {
+        "port": 5173
+      }
     },
     "react": {
       "name": "React with SDK",
       "command": "yarn workspace react dev",
-      "runAtStart": true
+      "runAtStart": true,
+      "preview": {
+        "port": 5174
+      }
     }
   }
 }
