@@ -26,6 +26,11 @@
       "name": "preview",
       "command": "yarn preview",
       "runAtStart": false
+    },
+    "react": {
+      "name": "React with SDK",
+      "command": "cd examples/react && yarn dev",
+      "runAtStart": true
     }
   }
 }
